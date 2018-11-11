@@ -27,9 +27,15 @@
     <ClInclude Include="src\hazel\entry_point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\hazel\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\hazel\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hazel\log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
