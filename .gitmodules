@@ -1,6 +1,4 @@
-[submodule "hazel/externals/spdlog"]
-	path = hazel/externals/spdlog
+[submodule "code/externals/spdlog"]
+	path = code/externals/spdlog
 	url = https://github.com/gabime/spdlog
-[submodule "hazel/externals/gperftools"]
-	path = hazel/externals/gperftools
-	url = https://github.com/gperftools/gperftools.git
+
