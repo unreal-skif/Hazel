@@ -1,4 +1,4 @@
 #pragma once
 
 #include "log/log.h"
-#include "entry_point.h"
+#include "core/entry_point.h"

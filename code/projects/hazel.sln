@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "engine", "engine.vcxproj", "{1B5A0C22-03EB-43CF-91A5-CC22FB0CC861}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sandbox", "sandbox.vcxproj", "{8D2EC328-6758-4154-92DD-753BB7C53AC5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B5A0C22-03EB-43CF-91A5-CC22FB0CC861} = {1B5A0C22-03EB-43CF-91A5-CC22FB0CC861}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "launcher", "launcher.vcxproj", "{BE153D77-21B7-48FF-9CB4-4FDA7D0C93A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B5A0C22-03EB-43CF-91A5-CC22FB0CC861} = {1B5A0C22-03EB-43CF-91A5-CC22FB0CC861}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -18,6 +28,18 @@ Global
 		{1B5A0C22-03EB-43CF-91A5-CC22FB0CC861}.Profile|x64.Build.0 = Profile|x64
 		{1B5A0C22-03EB-43CF-91A5-CC22FB0CC861}.Release|x64.ActiveCfg = Release|x64
 		{1B5A0C22-03EB-43CF-91A5-CC22FB0CC861}.Release|x64.Build.0 = Release|x64
+		{8D2EC328-6758-4154-92DD-753BB7C53AC5}.Debug|x64.ActiveCfg = Debug|x64
+		{8D2EC328-6758-4154-92DD-753BB7C53AC5}.Debug|x64.Build.0 = Debug|x64
+		{8D2EC328-6758-4154-92DD-753BB7C53AC5}.Profile|x64.ActiveCfg = Profile|x64
+		{8D2EC328-6758-4154-92DD-753BB7C53AC5}.Profile|x64.Build.0 = Profile|x64
+		{8D2EC328-6758-4154-92DD-753BB7C53AC5}.Release|x64.ActiveCfg = Release|x64
+		{8D2EC328-6758-4154-92DD-753BB7C53AC5}.Release|x64.Build.0 = Release|x64
+		{BE153D77-21B7-48FF-9CB4-4FDA7D0C93A2}.Debug|x64.ActiveCfg = Debug|x64
+		{BE153D77-21B7-48FF-9CB4-4FDA7D0C93A2}.Debug|x64.Build.0 = Debug|x64
+		{BE153D77-21B7-48FF-9CB4-4FDA7D0C93A2}.Profile|x64.ActiveCfg = Profile|x64
+		{BE153D77-21B7-48FF-9CB4-4FDA7D0C93A2}.Profile|x64.Build.0 = Profile|x64
+		{BE153D77-21B7-48FF-9CB4-4FDA7D0C93A2}.Release|x64.ActiveCfg = Release|x64
+		{BE153D77-21B7-48FF-9CB4-4FDA7D0C93A2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
