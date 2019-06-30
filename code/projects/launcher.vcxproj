@@ -69,9 +69,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>$(SolutionDir)..\..\bin_temp\$(ProjectName)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)..\..\bin\</OutDir>
+    <OutDir>$(SolutionDir)..\..\bin_release\</OutDir>
     <IncludePath>$(SolutionDir)..\engine;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)..\..\bin;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)..\..\bin_release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -117,10 +117,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\launcher\launcher.cpp" />
+    <ClCompile Include="..\launcher\Launcher.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\launcher\launcher.h" />
+    <ClInclude Include="..\launcher\Launcher.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -69,9 +69,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>$(SolutionDir)..\..\bin_temp\$(ProjectName)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)..\..\bin\</OutDir>
+    <OutDir>$(SolutionDir)..\..\bin_release\</OutDir>
     <IncludePath>$(SolutionDir)..\engine;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)..\..\bin;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)..\..\bin_release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>

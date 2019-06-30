@@ -1,23 +1,23 @@
-#include "launcher.h"
+#include "Launcher.h"
 
-launcher::launcher()
+Launcher::Launcher()
 {}
 
-launcher::~launcher()
+Launcher::~Launcher()
 {}
 
-void launcher::run() {
+void Launcher::Run() {
 	while (true);
 }
 
 int main(int argc, char** argv) {
-	log::Init();
+	Log::Init();
 
 	CORE_LOG_WARN("Test warn");
 	int a = 444;
-	LOG_FATAL("Test fatal! int a = {0}", a);
+	LOG_ERROR("Test error! int a = {0}", a);
 
-	launcher* pLauncher = new launcher();
-	pLauncher->run();
+	Launcher* pLauncher = new Launcher();
+	pLauncher->Run();
 	delete pLauncher;
 }

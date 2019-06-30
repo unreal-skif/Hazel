@@ -7,12 +7,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\launcher\launcher.cpp">
+    <ClCompile Include="..\launcher\Launcher.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\launcher\launcher.h">
+    <ClInclude Include="..\launcher\Launcher.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,11 +1,11 @@
 #pragma once
 
 #include "core/core.h"
-#include "log/log.h"
+#include "log/Log.h"
 
-class ENGINE_API launcher {
+class Launcher {
 public:
-	launcher();
-	~launcher();
-	void run();
+	Launcher();
+	~Launcher();
+	void Run();
 };

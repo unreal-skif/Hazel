@@ -13,15 +13,12 @@
     <ClInclude Include="..\engine\core\core.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine\core\entry_point.h">
-      <Filter>core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\engine\log\log.h">
+    <ClInclude Include="..\engine\log\Log.h">
       <Filter>log</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\engine\log\log.cpp">
+    <ClCompile Include="..\engine\log\Log.cpp">
       <Filter>log</Filter>
     </ClCompile>
   </ItemGroup>

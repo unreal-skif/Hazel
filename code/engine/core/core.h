@@ -1,5 +1,7 @@
 #pragma once
 
+#include <memory>
+
 #ifdef BUILD_DLL
 	#define ENGINE_API __declspec(dllexport)
 #else
