@@ -13,11 +13,10 @@ void Launcher::Run() {
 int main(int argc, char** argv) {
 	Log::Init();
 
-	CORE_LOG_WARN("Test warn");
+	LOG_CORE_WARN("Test core warn");
 	int a = 444;
-	LOG_ERROR("Test error! int a = {0}", a);
+	LOG_GAME_ERROR("Test game error! int a = {0}", a);
 
-	Launcher* pLauncher = new Launcher();
-	pLauncher->Run();
-	delete pLauncher;
+	std::unique_ptr<Launcher> Game = std::make_unique<Launcher>();
+	Game->Run();	
 }

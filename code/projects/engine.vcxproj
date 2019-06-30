@@ -109,9 +109,11 @@
   <ItemGroup>
     <ClInclude Include="..\engine\core\core.h" />
     <ClInclude Include="..\engine\log\Log.h" />
+    <ClInclude Include="..\engine\render\dx11\dx11.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\engine\log\Log.cpp" />
+    <ClCompile Include="..\engine\render\dx11\dx11_init.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

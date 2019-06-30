@@ -8,6 +8,12 @@
     <Filter Include="log">
       <UniqueIdentifier>{632915f5-c77d-4670-a6e7-92dcc1bd8f85}</UniqueIdentifier>
     </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{754752b1-2e1e-4333-9cee-120bb81bce33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\dx11">
+      <UniqueIdentifier>{e82d8c81-7a18-48d7-97e7-b34abb5512a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\engine\core\core.h">
@@ -16,10 +22,16 @@
     <ClInclude Include="..\engine\log\Log.h">
       <Filter>log</Filter>
     </ClInclude>
+    <ClInclude Include="..\engine\render\dx11\dx11.h">
+      <Filter>render\dx11</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\engine\log\Log.cpp">
       <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\engine\render\dx11\dx11_init.cpp">
+      <Filter>render\dx11</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
